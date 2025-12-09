@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "dev": "next dev -p 3000 2>&1 | tee dev.log",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export",
+    "serve": "npx serve out",
+    "db:push": "prisma db push",
+    "db:generate": "prisma generate",
+    "db:migrate": "prisma migrate dev",
+    "db:reset": "prisma migrate reset"
+  }
+}
